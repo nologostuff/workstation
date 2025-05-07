@@ -122,7 +122,7 @@ sed -i -e '/root/r /tmp/firefox-server.txt' /etc/nginx/sites-enabled/$INSTANCE_D
 docker run  \
    -d \
    --name=code-server-ls \
-   -e PASSWORD=supersecret \
+   -e PASSWORD=superman \
    -e PUID=0 \
    -e PGID=0 \
    -e TZ=Europe/London \
